@@ -21,7 +21,7 @@ acceptance("docker_manager", function (needs) {
             id: "discourse",
             version: "010370f8b1cfa56cea3736059c96d0578e7918e2",
             pretty_version: "v3.1.0.beta2 +236",
-            url: "https://github.com/discourse/discourse.git",
+            url: "https://github.com/ks-1007/discourse.git",
           },
           {
             name: "docker_manager",
@@ -31,7 +31,7 @@ acceptance("docker_manager", function (needs) {
             id: "docker_manager",
             version: "c8bca160d5c04a569217ede084bbf844ecd21644",
             pretty_version: null,
-            url: "https://github.com/discourse/docker_manager",
+            url: "https://github.com/ks-1007/docker_manager",
           },
         ],
       })

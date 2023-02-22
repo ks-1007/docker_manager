@@ -13,7 +13,7 @@ const repoProps = {
   official: false,
   path: "/c/discourse",
   pretty_version: "v2.2.0.beta6 +98",
-  url: "https://github.com/discourse/discourse",
+  url: "https://github.com/ks-1007/discourse",
   version: "8f65e4f",
   latest: {
     commits_behind: 3,
@@ -32,7 +32,7 @@ const managerProps = {
   official: true,
   path: "/c/discourse/plugins/docker_manager",
   pretty_version: null,
-  url: "https://github.com/discourse/docker_manager",
+  url: "https://github.com/ks-1007/docker_manager",
   version: "0b1fb4b",
   latest: {
     commits_behind: 0,
@@ -67,7 +67,7 @@ module("Integration | Component | RepoStatus", function (hooks) {
       .hasText("3 new commits", "shows number of new commits");
     assert.strictEqual(
       query("li.new-commits a").href.trim(),
-      "https://github.com/discourse/discourse/compare/8f65e4f...2b006c0",
+      "https://github.com/ks-1007/discourse/compare/8f65e4f...2b006c0",
       "links to GitHub diff page"
     );
 

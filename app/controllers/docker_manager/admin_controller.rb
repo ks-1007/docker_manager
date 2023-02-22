@@ -19,7 +19,7 @@ module DockerManager
         }
 
         result[:fork] = true if result[:official] &&
-          !r.url.starts_with?("https://github.com/discourse/")
+          !r.url.starts_with?("https://github.com/ks-1007/")
 
         result[:id] = r
           .name
